@@ -7,7 +7,7 @@ class EmailDetector
         output << email unless output.include?(email)
       end
     end
-    output.sort_by{|word| word.downcase}.join(';')
+    output.sort_by{|word| word}.join(';')
   end
 
   def self.strip_punctuation(word)
@@ -22,44 +22,13 @@ end
 
 # also, check out the .encode method
 
-# "Traveler@ngs.org;
-# apps@ngs.org;
-# askngs@nationalgeographic.com;
-# feedback@natgeotv.com;
-# genographic@ngs.org;
-# genographicespanol@ngs.org;
-# givinginfo@ngs.org;
-# jbmccorm@ngs.org;
-# maps@ngs.org;
-# mpotts@ngs.org;
-# newsdesk@nationalgeographic.com;
-# ngassignment@ngs.org;
-# ngsdigital@customersvc.com;
-# ngsforum@nationalgeographic.com;
-# ngsline@customersvc.com;
-# pressroom@ngs.org;
-# speakers@ngs.org;
-# stock@ngs.org;
-# topo@ngs.org"
-
-# "apps@ngs.org;
-# askngs@nationalgeographic.com;
-# askngs@nationalgeographic.com;
-# feedback@natgeotv.com;
-# genographic@ngs.org;
-# genographicespanol@ngs.org;
-# givinginfo@ngs.org;
-# jbmccorm@ngs.org;
-# maps@ngs.org;
-# mpotts@ngs.org;
-# newsdesk@nationalgeographic.com;
-# ngassignment@ngs.org;
-# ngsdigital@customersvc.com;
-# ngsdigital@customersvc.com;
-# ngsforum@nationalgeographic.com;
-# ngsline@customersvc.com;
-# pressroom@ngs.org;
-# speakers@ngs.org;
-# stock@ngs.org;
-# topo@ngs.org;
-# traveler@ngs.org"
+# def pull_email(data)
+#   valid_email = /[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}/
+#   data.map  { |datum|
+#     datum.encode('UTF-8', :invalid => :replace, :undef => :replace, :replace => "")
+#   }.map{ |line| line.scan(valid_email)}
+#     .flatten
+#     .uniq
+#     .sort
+#     .join(";")
+# end
