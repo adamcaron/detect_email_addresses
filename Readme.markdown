@@ -1,0 +1,1 @@
+Note: [Stop Validating Email Addresses With Regex](http://davidcel.is/posts/stop-validating-email-addresses-with-regex/)
