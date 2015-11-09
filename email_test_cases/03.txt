@@ -1,0 +1,52 @@
+51
+E-MAIL ADDRESSES OF GMs AND DRMs ON IR
+RLY	GM E-Mail	Division	DRM E-Mail
+CR	gm@cr.railnet.gov.in	Mumbai	drm@bb.railnet.gov.in
+Bhusawal	drm@bsl.railnet.gov.in
+Pune	drm@pa.railnet.gov.in
+Nagpur	drm@ngp.railnet.gov.in
+Solapur	drm@sur.railnet.gov.in
+ER 	gm@er.railnet.gov.in	Howrah	drmhwh@er.railnet.gov.in
+Sealdah	drmsdah@er.railnet.gov.in
+Asansol	drmasn@er.railnet.gov.in
+Malda	drmmldt@er.railnet.gov.in
+ECR 	gm@ecr.railnet.gov.in	Danapur	drmdnr@ecr.railnet.gov.in
+Dhanbad	drmdhn@ecr.railnet.gov.in
+Mughalsarai	drmmgs@ecr.railnet.gov.in
+Samastipur	drmspj@ecr.railnet.gov.in
+Sonpur	drmsee@ecr.railnet.gov.in
+ECoR    	gm@eastcoastrailway.gov.in  	Khurda Road	drmkur@eastcoastrailway.gov.in
+Sambalpur	drmsbp@eastcoastrailway.gov.in
+Waltair	drmwat@eastcoastrailway.gov.in
+NR 	gm@nr.railnet.gov.in	Delhi	drm@dli.railnet.gov.in
+Ambala	drm@umb.railnet.gov.in
+Moradabad	drm@mb.railnet.gov.in
+Lucknow	drm@lko.railnet.gov.in
+Ferozepur	drm@fzr.railnet.gov.in
+NCR    	gm@ncr.railnet.gov.in  	Allahabad	drm@ald.railnet.gov.in
+Jhansi	drm@jhs.railnet.gov.in
+Agra	drm@agc.railnet.gov.in
+NER	gm@ner.railnet.gov.in	Izzatnagar	drmizn@ner.railnet.gov.in
+Lucknow	drmljn@ner.railnet.gov.in
+Varanasi	drmbsb@ner.railnet.gov.in
+NFR	gm@nfr.railnet.gov.in	Katihar	drmkir@nfr.railnet.gov.in
+Alipurduar	drmapdj@nfr.railnet.gov.in
+Tinsukhia	drmtsk@nfr.railnet.gov.in
+Lumding	drmlmg@nfr.railnet.gov.in
+Rangia	drmrny@nfr.railnet.gov.in
+NWR	gm@nwr.railnet.gov.in	Jaipur	drmjp@nwr.railnet.gov.in
+Ajmer	drmaii@nwr.railnet.gov.in
+Bikaner	drmbkn@nwr.railnet.gov.in
+Jodhpur	drmju@nwr.railnet.gov.in
+SR	gm@sr.railnet.gov.in	Chennai	drmmas@sr.railnet.gov.in
+Madurai	drmmdu@sr.railnet.gov.in
+Salem	drmsa@sr.railnet.gov.in
+Palghat	drmpgt@sr.railnet.gov.in
+Tiruchirapalli	drmtpj@sr.railnet.gov.in
+Trivandrum	drmtvc@sr.railnet.gov.in
+SCR	gm@scr.railnet.gov.in	Secundrabad	drmsc@scr.railnet.gov.in
+Hyderabad	drmshyb@scr.railnet.gov.in
+Guntkal	drmgtl@scr.railnet.gov.in
+Guntur	drmgnt@scr.railnet.gov.in
+Nanded	drmned@scr.railnet.gov.in
+Vijayawada	drmbza@scr.railnet.gov.in
