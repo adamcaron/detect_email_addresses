@@ -3,21 +3,21 @@ class EmailDetector
     output = []
     input.split(' ').map do |word|
       if word.include?('@') && word.include?('.')
-        email = self.strip_punctuation(word)
+        # email = self.strip_punctuation(word)
+        email = word.chomp
         output << email unless output.include?(email)
       end
     end
     output.sort_by{|word| word}.join(';')
   end
 
-  def self.strip_punctuation(word)
-    letters = word.chars
-    # .chomp could also be used to remove the punctuation
-    until letters.last[/[a-zA-Z]+/] == letters.last
-      letters.pop
-    end
-    letters.join
-  end
+  # def self.strip_punctuation(word)
+  #   letters = word.chars
+  #   until letters.last[/[a-zA-Z]+/] == letters.last
+  #     letters.pop
+  #   end
+  #   letters.join
+  # end
 end
 
 # also, check out the .encode method
